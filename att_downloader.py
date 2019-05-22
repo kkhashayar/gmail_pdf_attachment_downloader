@@ -18,8 +18,8 @@ os.system("clear")
 
 class Att_d:
 	def __init__(self):
-		#self.username = "simplepycodetest@gmail.com" 
-		#self.password = "test9756" 
+		#self.username = "" 
+		#self.password = "" 
 		try:
 			self.mail = imaplib.IMAP4_SSL("imap.gmail.com")
 			self.mail_folder = ""
@@ -32,7 +32,7 @@ class Att_d:
 		#self.password = getpass.getpass("Password: ")
 		print()
 		print("Connecting:... ")
-		self.mail.login("simplepycodetest@gmail.com", "test9756")
+		self.mail.login("your gmail", "yourpass")
 		#self.mail_folder = "Inbox"#input("Select in mail folder: ")
 		self.mail.select("inbox")
 		feedback, data = self.mail.uid("search", None, "ALL")
