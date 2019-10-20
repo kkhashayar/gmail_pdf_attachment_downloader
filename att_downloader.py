@@ -2,7 +2,7 @@
 Gmail attachment downloader v.1 
 By: Khashayar Nariman 18, may, 2019.
 
-Basic script description:
+description:
 Checks given gimal account for PDF format attachment in given time cycle.
 If file doesn't exists in current working directory will download it. 
 
